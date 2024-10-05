@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: var(--harsh);
+
+  }
+  :root {
+    --harsh: rgb(3, 1, 23);
+  }
+
+  h1,h2{
+    color: #f5f4d5;
+    filter: drop-shadow(2px 4px 35px white);
+}
+div > img {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    filter: drop-shadow(2px 4px 10px silver);
+}
+  
+  .btn {
+    filter: drop-shadow(6px 7px 7px silver);
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .yellow {
+    background-color: #d9ff77;
+  }
+  
+  .red {
+    background-color: #f6adc3;
+  }
+  
+  .purple {
+    background-color: #91adff;
+  }
+  
+  .green {
+    background-color: #79f08b;
+  }
+  
+  .flash {
+    background-color: rgb(198, 194, 194);
+  }
+  
+  .userflash {
+    background-color: green;
+  }
